@@ -6,10 +6,8 @@
   <h1>Ubah Produk</h1>
 
   <?php
-  // Load file koneksi.php
   include "koneksi.php";
 
-  // Ambil data ID yang dikirim oleh index.php melalui URL
   $id = $_GET['id'];
 
   $sql = $pdo->prepare("SELECT * FROM produk WHERE id=:id");

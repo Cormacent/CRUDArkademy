@@ -17,9 +17,9 @@
   include "koneksi.php";
 
   $sql = $pdo->prepare("SELECT * FROM produk");
-  $sql->execute(); // Eksekusi querynya
+  $sql->execute(); 
 
-  while($data = $sql->fetch()){ // Ambil semua data dari hasil eksekusi $sql
+  while($data = $sql->fetch()){
     echo "<tr>";
     echo "<td>".$data['nama_produk']."</td>";
     echo "<td>".$data['keterangan']."</td>";
