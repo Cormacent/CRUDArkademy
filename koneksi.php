@@ -1,12 +1,13 @@
 <?php
-$host = "localhost"; 
-$username = "root"; 
-$password = ""; 
-$database = "db_arkademy";
+// $host = "localhost"; 
+// $username = "root"; 
+// $password = ""; 
+// $database = "db_arkademy";
 
 // Koneksi ke MySQL dengan PDO
 try {
-    $pdo = new PDO('mysql:host='.$host.';dbname='.$database, $username, $password);
+    // $pdo = new PDO('mysql:host='.$host.';dbname='.$database, $username, $password);
+    $pdo = new PDO('mysql:host=localhost'.';dbname=db_arkademy', "root", "");
 
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
