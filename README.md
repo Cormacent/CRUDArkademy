@@ -1,4 +1,4 @@
-# CRUDArkademy
+# CRUD Sederhana dengan bahasa pemrograman PHP dan xampp
 ## Cara menjalankan
 #### 1. cukup clone git ke folder xampp/htdocs/sini
 #### 2. jalakan xampp dan buka halaman localhost/namafolder
