@@ -23,10 +23,10 @@
       <tbody>
         <?php
         include "koneksi.php";
-  
+
         $sql = $pdo->prepare("SELECT * FROM produk");
         $sql->execute();
-  
+
         while ($data = $sql->fetch()) {
           echo "<tr>";
           echo "<td>" . $data['nama_produk'] . "</td>";
@@ -41,7 +41,7 @@
     </table>
     <br><br>
     <div class="mr-3">
-      <a class="btn btn-dark pull-right" href="form_simpan.php" role="button">Tambah Data</a> 
+      <a class="btn btn-dark pull-right" href="form_simpan.php" role="button">Tambah Data</a>
     </div>
   </div>
 </body>

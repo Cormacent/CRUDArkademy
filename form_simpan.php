@@ -28,7 +28,6 @@
           <td><input type="text" name="jumlah"></td>
         </tr>
       </table>
-
       <hr>
       <input type="submit" class="btn btn-success" value="Simpan">
       <a href="index.php" class="btn btn-secondary pull-right" role="button">Batal</a>
